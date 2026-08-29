@@ -1,0 +1,20 @@
+{
+  "name": "synthetic-forensic-scenario-generator",
+  "version": "1.0.0",
+  "description": "creates deterministic synthetic digital-forensics scenarios",
+  "type": "module",
+  "scripts": {
+    "start": "node server/app-run.js",
+    "dev": "node --watch server/app-run.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.0",
+    "hono": "^4.9.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4",
+    "vitest": "^3.2.0"
+  }
+}
